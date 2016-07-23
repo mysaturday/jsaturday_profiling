@@ -1,11 +1,17 @@
 {
-  "name": "jsaturday_profiling",
+  "name": "Profiling",
   "version": "1.0.0",
-  "description": "",
+  "description": "Profiling module for jSaturday",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Francesco Sirocco",
+  "license": "ISC",
+  "dependencies": {
+    "extend": "^3.0.0"
+  },
+  "devDependencies": {
+    "jsaturday_factory": "git+https://github.com/mysaturday/jsaturday_factory.git"
+  }
 }

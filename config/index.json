@@ -1,0 +1,7 @@
+{
+	"default": {
+		"user": {
+			"model" : "user/mongo"
+		}
+	}	
+}
